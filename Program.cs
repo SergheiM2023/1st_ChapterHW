@@ -2,14 +2,14 @@
 
 
 
-Console.Write("Введите количество элементов массива: ");
+Console.Write("Ввод кол-ва элементов массива: ");
 int m = Convert.ToInt32(Console.ReadLine());
 string [] stringArray = new string [m];
 void array(string [] stringArray)
 {
   for (int i = 0;i<stringArray.Length;i++)
   {
-     Console.WriteLine($"Введите {i+1} элемент массива");
+     Console.WriteLine($"Введите {i+1} элемент массива желатьльно с разным кол-вом символов");
      stringArray[i] = Console.ReadLine();
   }
 }
